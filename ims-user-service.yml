@@ -1,0 +1,13 @@
+server:
+  port: 4041
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ims_main?currentSchema=ims-user
+    username: abhi18
+    password: abhi18
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
